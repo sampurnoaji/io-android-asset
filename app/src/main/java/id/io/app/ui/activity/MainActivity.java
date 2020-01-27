@@ -1,4 +1,4 @@
-package id.io.app;
+package id.io.app.ui.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
@@ -9,6 +9,8 @@ import androidx.navigation.ui.NavigationUI;
 import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import id.io.app.R;
 
 public class MainActivity extends AppCompatActivity {
 

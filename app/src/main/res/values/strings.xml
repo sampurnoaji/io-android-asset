@@ -5,22 +5,4 @@
     <string name="riwayat">Riwayat</string>
     <string name="account">Akun</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="lupa_pin">Lupa Pin?</string>
-    <string name="daftar">Daftar</string>
-    <string name="login">Login</string>
-    <string name="pin">Pin</string>
-    <string name="email">Email</string>
-    <string name="reset_pin">Reset PIN</string>
-    <string name="reset_pin_desc">Kami akan mengirimkan Pin baru ke email Anda</string>
-    <string name="kembali_ke">Kembali ke</string>
-    <string name="halaman_login">Halaman Login</string>
-    <string name="reset">Reset</string>
-    <string name="lupa_pin_header">Lupa PIN</string>
-    <string name="registrasi">Registrasi</string>
-    <string name="sudah_punya_akun">Sudah punya akun?</string>
-    <string name="ulangi_pin">Ulangi Pin</string>
-    <string name="nama_lengkap">Nama lengkap</string>
-    <string name="no_hp">No HP</string>
 </resources>

@@ -1,4 +1,4 @@
-package id.io.app;
+package id.io.app.ui.fragment;
 
 
 import android.content.Intent;
@@ -14,6 +14,9 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import java.util.Objects;
+
+import id.io.app.ui.activity.LoginActivity;
+import id.io.app.R;
 
 
 /**

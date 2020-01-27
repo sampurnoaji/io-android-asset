@@ -1,4 +1,4 @@
-package id.io.app;
+package id.io.app.ui.fragment;
 
 
 import android.os.Bundle;
@@ -10,16 +10,16 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.facebook.shimmer.ShimmerFrameLayout;
+import id.io.app.R;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class HomeFragment extends Fragment {
+public class MessageFragment extends Fragment {
 
 
-    public HomeFragment() {
+    public MessageFragment() {
         // Required empty public constructor
     }
 
@@ -28,19 +28,11 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        return inflater.inflate(R.layout.fragment_message, container, false);
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        bindView(view);
-    }
-
-    private void bindView(View view) {
-        ShimmerFrameLayout shimmerEvent = view.findViewById(R.id.shimmerEvent);
-        shimmerEvent.startShimmer();
-        ShimmerFrameLayout shimmerNews = view.findViewById(R.id.shimmerNews);
-        shimmerNews.startShimmer();
     }
 }

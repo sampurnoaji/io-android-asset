@@ -12,19 +12,14 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name=".DaftarActivity"
-            android:theme="@style/LoginTheme" />
+            android:name=".ui.activity.DaftarActivity" />
         <activity
-            android:name=".LupaPinActivity"
-            android:theme="@style/LoginTheme" />
+            android:name=".ui.activity.LoginActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
-            android:name=".LoginActivity"
-            android:theme="@style/LoginTheme" />
+            android:name=".ui.activity.MainActivity" />
         <activity
-            android:name=".MainActivity"
-            android:theme="@style/HomeTheme" />
-        <activity
-            android:name=".SplashActivity"
+            android:name=".ui.activity.SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

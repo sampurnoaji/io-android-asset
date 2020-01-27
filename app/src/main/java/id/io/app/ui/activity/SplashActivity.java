@@ -1,4 +1,4 @@
-package id.io.app;
+package id.io.app.ui.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 
-import java.util.Objects;
+import id.io.app.R;
 
 public class SplashActivity extends AppCompatActivity {
 
